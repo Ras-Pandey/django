@@ -45,15 +45,3 @@ def delete_item(request, id):
     if request.method == 'POST':
         item.delete()
         return redirect('food:index')
-    # To upload your code to GitHub, follow these steps:
-    # 1. Initialize a git repository in your project folder:
-    #    git init
-    # 2. Add your files:
-    #    git add .
-    # 3. Commit your changes:
-    #    git commit -m "Initial commit"
-    # 4. Create a new repository on GitHub.
-    # 5. Link your local repo to GitHub:
-    #    git remote add origin https://github.com/your-username/your-repo-name.git
-    # 6. Push your code:
-    #    git push -u origin master
